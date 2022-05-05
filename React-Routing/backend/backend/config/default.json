@@ -1,0 +1,13 @@
+{
+    "httpPort": 4000,
+    "envName": "dev",
+    "api_version": "dev",
+    "hashingSecret": "T@st@ppSecretKeyF0rW$ervice$",
+    "maxChecks": 5,
+    "dbConnectionURL": "mongodb+srv://Susheel:susheel2466@shoppingcart.zr9jv.mongodb.net/shoppingCart?retryWrites=true&w=majority",
+    "jwtPrivateKey": "T@st@ppSecretKeyF0rW$ervice$PrivateKey",
+    "api_base": "http://localhost:4000/v1/",
+    "app_url": "http://localhost:3000/"
+  }
+  
+  

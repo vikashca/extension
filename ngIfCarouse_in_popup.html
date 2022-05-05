@@ -1,0 +1,59 @@
+<button class="btn btn-sm btn-primary add-modal" (click)="openModal()" data-target="#add-modal" data-toggle="modal">Add  New</button>
+
+<div id="add-modal" class="modal fade">
+<owl-carousel-o [options]="customOptionstwo" *ngIf="flag">
+    <ng-template carouselSlide>Slide 11</ng-template>  
+    <ng-template carouselSlide>Slide 21</ng-template>  
+    <ng-template carouselSlide>Slide 211</ng-template>  
+    <ng-template carouselSlide>Slide 212</ng-template>  
+    <ng-template carouselSlide>Slide 31</ng-template>  
+  </owl-carousel-o>
+  </div>
+
+
+
+  <!-- _______ ts file -->
+  export class CmsManagementComponent implements OnInit {
+
+  flag = false;
+  customOptionstwo: OwlOptions = {
+      loop: true,
+      mouseDrag: true,
+      touchDrag: true,
+      pullDrag: true,
+      dots: true,
+      navSpeed: 700,
+      margin: 10,
+      autoWidth: true,
+      navText: ['<', '>'],
+      responsive: {
+        0: {
+          items: 1
+        },
+        400: {
+          items: 2
+        },
+        740: {
+          items: 3
+        },
+        940: {
+          items: 4
+        }
+      },
+      nav: true
+    }
+
+
+    constructor() { }
+
+    ngOnInit() {}
+
+
+    openModal(){
+    setTimeout(()=> {
+      this.flag = true;
+    }, 1000);
+  }
+
+
+}

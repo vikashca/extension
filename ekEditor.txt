@@ -1,0 +1,16 @@
+
+Step 1_____
+---------------------------------Add JS link----------------------
+<script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
+
+
+Step 2_____
+---------------------------------Add js script ----------------------
+<script>
+CKEDITOR.replace( 'editor1' ); // (In case of angular):____ declare var CKEDITOR: any; (If error occurs)
+</script>
+
+
+Step 3_____
+---------------------------------Add in HTML----------------------
+<textarea id="editor1" class="form-control"></textarea>

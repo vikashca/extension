@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display: inline-flex;
+        }
+        form div{
+            padding-right: 10px;;
+        }
+    </style>
+</head>
+<body>
+    <form name="formTag" action="" method="post" onsubmit="return tagCreate();">
+        <div>
+            <span id="yourBug"></span><br>
+            <input type="text" name="tagName">
+        </div>
+        <div>
+            <span id="yourBug2"></span><br>
+            <input type="text" name="tagText">
+            <button>Create</button>
+        </div>
+    </form>
+    <div id="parentDiv"></div>
+    <!-- <script src="dynamicElement.js"></script> -->
+</body>
+
+<script type="text/javascript">
+	    function tagCreate(){
+        var tagName = document.forms["formTag"]["tagName"].value;
+        var createText = document.forms["formTag"]["tagText"].value;
+        if(tagName == ""){
+            document.querySelector("#yourBug").innerHTML = "Please Fill Field";
+            return false;
+        }else if(createText == ""){
+            document.querySelector("#yourBug").innerHTML = "";
+            document.querySelector("#yourBug2").innerHTML = "Please Fill Field";
+            return false;
+        }else if(!tagName == ""){
+            var elementName = document.createElement(tagName);
+            var textNode = document.createTextNode(createText);
+            elementName.appendChild(textNode);
+            document.querySelector("#parentDiv").appendChild(elementName);
+            return false;
+        }
+    }
+        var tagName = document.createElement("p");
+        var textNode = document.createTextNode("Element created check you inspact");
+        tagName.appendChild(textNode);
+        document.querySelector("#parentDiv").appendChild(tagName);
+
+</script>
+</html>

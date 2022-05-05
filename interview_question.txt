@@ -1,0 +1,151 @@
+Angular
+----------------------------------------------
+Q. Angular install command? 
+Ans -> npm install -g @angular/CLI
+
+Q. Create a new project command?
+Ans -> ng new projectName
+
+Q. Create a new component command?
+Ans -> ng g c componentName
+
+Q. Use of routerLink?
+Ans -> Use for change component.
+
+Q. Use of routerLinkActive?
+Ans -> Use for show active menu.
+
+Q. Use of *ngIf?
+Ans -> Use for if-else condition.
+
+Q. Use of *ngFor?
+Ans -> Use for loop.
+
+Q. How many types of form?
+Ans -> Two types of form. (Templete driven / Reactive form)
+
+Q. What is formGroup?
+Ans -> Create a group of form with.
+
+Q. Use of ngClass?
+Ans -> Add a dynamic class with true/false condition.
+
+Q. Use of const/let?
+Ans -> I can't update value of const but let value will be update without let. (let a=10; a=15; value of a = 15)
+
+Q. What is lazy loading?
+Ans -> Use for increase speed of application and module wise work.
+
+jQuery
+---------------------------------------------
+Q. Name of any 6 type event?
+Ans -> click, change, hover, mouseDown, mouseUp, keyUp, keyDown, keyPress, load, ready etc.
+
+Q. How mant types of selectors?
+Ans -> class, Id, tags, element, attribute ans all css selectors.
+
+Q. Use of setTimeout?
+Ans -> Use to delay in jQuery running.
+
+Q. Use of setItem?
+Ans -> Use to set data on localstores or server.
+
+Q. Use of getItem?
+Ans -> Use to get data from localstores or server.
+
+Q. Use of closest?
+Ans -> Use to target nearest parent tag.
+
+Q. Use of append?
+Ans -> Add data in end of content.
+
+Q. Use of prepend?
+Ans -> Add data start of content.
+
+Q. Use of clone?
+Ans -> Use for make duplicate of code.
+
+Q. Use of prev?
+Ans -> Use to select previous.
+
+Q. Use of next?
+Ans ->			Use to select next.
+
+Q. Use of slideToggle?
+Ans -> Use for show/hide with animation.
+
+Q. Use of toggleClass?
+Ans -> Use to add and remove class again and again.
+
+Q. Use of remove?
+Ans -> Use for remove data.
+
+Q. Use of empty?
+Ans -> Use to remove element/value.
+
+Q. Use of ajax?
+Ans -> Update data without reload browser.
+
+CSS
+---------------------------------------------
+Q. How many types of selectore.
+Ans -> class(.), Id(#), tags, element, attribute, etc.
+
+Q. How many types of position.
+Ans -> relative, absolute, fixed, static, sticky.
+
+Q. Use of transiction.
+Ans -> Use for animation.
+
+Q. How many types of gradient.
+Ans -> 2 types of gradient. (linnier, radial)
+
+Q. Diffrent between display block/inline-block?
+Ans -> Display block always break line but inline-block does not break line.
+
+Q. Use of display flex.
+Ans -> Display flex arrange inside all tags in one line.
+
+Q. Use of first-line?
+Ans -> Use for change property of first line.
+
+Pseudo-elements -	after, before, first-line, first-letter
+Pseudo Classes -	first-child, last-child, nth-child, nth-of-type
+
+Q. Different between border/outline?
+Ans -> Outline create a border out side of border and outline does not support border-radius.
+
+Q. Use of keyframe?
+Ans -> Use for change animation effect.
+
+Q. What is box-moduel?
+Ans -> Box module is a structure of box which have Margin, Padding, Border, Content.
+
+Html
+---------------------------------------------
+Q. Use of doctype?
+Ans -> Use for indicate to browser about html type.
+
+Q. Use of meta tag?
+Ans -> Use for SEO purpos and support media on different viewport.
+ 
+Q. How many types of input?
+Ans -> text, date, time, email, tel, radio, checkbox, number, submit etc.
+
+Q. How many types of form method?
+Ans -> Get, Post.
+
+Q. Which type of tag pre-tag?
+Ans -> Pre tag use for show text pre-formating text with line break and space.
+
+Q. How many types of heading?
+Ans -> 6 types od heading h1 to h6.
+
+Q. Use of embed tag?
+And -> Use for video.
+
+Q. Use of Video?
+Ans -> Use for video.
+
+Q. Use of Audio?
+Ans -> Use for audio.

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.187" y1="-0.761" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fed576"/>
+      <stop offset="0.26" stop-color="#f47133"/>
+      <stop offset="0.61" stop-color="#bc3081"/>
+      <stop offset="1" stop-color="#4c63d2"/>
+    </linearGradient>
+  </defs>
+  <g id="instagram" transform="translate(13734 932)">
+    <rect id="Rectangle_17489" data-name="Rectangle 17489" width="60" height="60" rx="29" transform="translate(-13734 -932)" fill="#fff"/>
+    <g id="_Group_" data-name="&lt;Group&gt;" transform="translate(-13719.474 -917.474)">
+      <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" d="M13.232,5h14.81c.329.165.823.165,1.152.329a7.866,7.866,0,0,1,6.253,5.43,13.163,13.163,0,0,1,.494,2.468v14.48a11.42,11.42,0,0,1-1.975,5.1,9.067,9.067,0,0,1-7.4,3.126H14.22a9.034,9.034,0,0,1-6.088-1.975A9.067,9.067,0,0,1,5,26.622V15.1a12.456,12.456,0,0,1,.165-2.468,8.063,8.063,0,0,1,6.253-7.076Zm-5.1,15.632V27.05a5.628,5.628,0,0,0,6.088,6.088q6.417.247,12.835,0c3.785,0,5.924-2.3,6.088-6.088q.247-6.417,0-12.835a5.792,5.792,0,0,0-6.088-6.088q-6.417-.247-12.835,0a5.628,5.628,0,0,0-6.088,6.088Z" transform="translate(-4.992 -5)" fill="url(#linear-gradient)"/>
+      <path id="_Compound_Path_2" data-name="&lt;Compound Path&gt;" d="M9.64,17.57a7.946,7.946,0,0,1,7.93-7.93,8.092,8.092,0,0,1,7.93,7.93,7.946,7.946,0,0,1-7.93,7.93,8.092,8.092,0,0,1-7.93-7.93Zm7.93-5.017a4.936,4.936,0,1,0,4.855,4.855A4.855,4.855,0,0,0,17.57,12.553Z" transform="translate(-1.855 -1.868)" fill="url(#linear-gradient)"/>
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M18.34,10.25a1.943,1.943,0,0,1,2.01-2.01,2.161,2.161,0,0,1,2.01,2.01,2.01,2.01,0,1,1-4.02,0Z" transform="translate(3.566 -2.923)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

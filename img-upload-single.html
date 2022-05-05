@@ -1,0 +1,81 @@
+<!-- Latest compiled and minified CSS -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+<main class="page">
+	<!-- input file -->
+	<div class="img-box">
+		<div class="img">
+			<img id="imagefile" src=""/>
+		</div>
+		<label class="fileInput">
+			Upload File
+			<input type="file" id="inputfield"  onChange="singleFiles(event)"/>
+		</label>
+	</div>
+</main>
+
+<script>
+  single = new Array();
+  function singleFiles(event) {
+    this.single = [];
+    var singleFiles = event.target.files;
+    if (singleFiles) {
+      for (var file of singleFiles) {
+        var singleReader = new FileReader();
+        singleReader.onload = (e) => {
+          this.single.push(e.target.result);
+          $('#imagefile').attr('src', e.target.result)          
+        }
+        singleReader.readAsDataURL(file);
+      }
+    }
+  }
+</script>
+
+<style>
+.img-box {
+	padding: 0.5em;
+	width: 100%;
+	margin:0.5em;
+}
+.img{
+	width: 120px;
+	height: 120px;
+	display: block;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 100%;
+	border: 2px solid #ddd;
+}
+.img img {
+	width: 100%;
+	min-height: 100%;
+	height: auto;
+}
+.fileInput{
+	display: block;
+	padding: 5px 10px;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #000;
+	position: relative;
+	width: 120px;
+	text-align: center;
+	margin: 15px auto 0px;
+}
+.fileInput input[type=file]{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 11px;
+	opacity: 0;
+	width: 100%;
+	height: 0px;
+}
+</style>

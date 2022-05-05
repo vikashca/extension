@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="linkedin" transform="translate(13816 932)">
+    <g id="Group_59768" data-name="Group 59768">
+      <rect id="Rectangle_17486" data-name="Rectangle 17486" width="60" height="60" rx="29" transform="translate(-13816 -932)" fill="#fff"/>
+      <g id="linkedin-2" data-name="linkedin" transform="translate(-13798.065 -914.11)">
+        <rect id="Rectangle_17792" data-name="Rectangle 17792" width="5.425" height="16.679" transform="translate(-0.13 7.54)" fill="#1976d2"/>
+        <path id="Path_105372" data-name="Path 105372" d="M172.621,160.2c-.058-.018-.112-.038-.173-.055s-.146-.03-.22-.042a4.862,4.862,0,0,0-.973-.1h0a7.538,7.538,0,0,0-5.83,3.189V160H160v16.679h5.425v-9.1s4.1-5.71,5.83-1.516v10.614h5.424V165.424A5.409,5.409,0,0,0,172.621,160.2Z" transform="translate(-152.549 -152.46)" fill="#1976d2"/>
+        <circle id="Ellipse_1267" data-name="Ellipse 1267" cx="3" cy="3" r="3" transform="translate(-0.935 -0.89)" fill="#1976d2"/>
+      </g>
+    </g>
+  </g>
+</svg>

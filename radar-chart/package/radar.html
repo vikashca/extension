@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+  <title>Invoice</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500">
+  <!-- <link rel="stylesheet" type="text/css" href="dist/Chart.min.css"> -->
+  <style>
+  	*{
+  		box-sizing: border-box;
+  		-webkit-box-sizing: border-box;
+  		-moz-box-sizing: border-box;
+  	}
+  	html, body{
+  		font-size: 13px;
+  		font-family: 'Poppins', sans-sarif;
+  		font-weight: 400;
+  	}
+    strong{
+      font-weight: 500;
+    }
+    p{
+      margin: 0px 0px 5px;
+    }
+    td h3{
+      font-weight: 500;
+      margin: 0px 0px 0px;
+    }
+  	h6{
+  		margin: 0px 0px 15px;
+  		font-size: 16px;
+  		font-family: 'Poppins', sans-sarif;
+  		font-weight: 400;
+  	}
+  	.fullScreen{
+  		width: 100%;
+  		min-height: 100vh;
+  		float: left;
+  		display: flex;
+  		align-items: center;
+  		-webkit-align-items: center;
+  		-moz-align-items: center;
+  		justify-content: center;
+  		-webkit-justify-content: center;
+  		-moz-justify-content: center;
+  	}
+  	.invoice{
+	  	max-width: 680px;
+      width: 100%;
+	  	margin: 60px auto;
+	  	/*text-align: left;*/
+  	}
+    
+    .left{
+      float: left;
+    }
+    .right{
+      float: right;
+    }
+    table{
+      width: 100%;
+      border-bottom: 1px solid #fff;
+      margin-bottom: 8px;
+      border-spacing: 0px;
+    }
+    table th{
+      font-weight: 500;
+      padding: 4px 0px;
+    }
+    table td{
+      padding: 4px 0px;
+      margin: 0px -2px;
+    }
+    .card-body{
+      padding: 7px 15px;
+      margin-bottom: 15px;
+      width: 100%;
+      float: left;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(21,21,21,.3);
+    }
+    .card table{
+      margin-bottom: 0px;
+    }
+    .border th{
+      border-bottom: 1px solid #c5c5c5;
+    }
+    .border td{
+      padding: 7px 0px;
+      border-bottom: 1px solid #c5c5c5;
+    }
+    
+    .text-success{
+      color: #165f44;
+    }
+    th h6, td h6{
+      margin-bottom: 0px;
+    }
+    
+    .mybtn{
+      width: 100%;
+      display: block;
+      margin: 25px auto 0px;
+      color: #fff;
+      background-color: #165f44;
+      border: 0px;
+      padding: 13px 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(21,21,21,.25);
+    }
+    .text-center{
+      text-align: center;
+    }
+    .bg-silver{
+      background-color: silver;
+    }
+    .fw-400{
+      font-weight: 400;
+    }
+    .csbg-green{
+      background-color: #0c9090;
+      padding: 7px;
+    }
+    .mt-4{
+      margin-top: 2rem;
+    }
+    .mt-wpx-70{
+      margin-top: 70px
+    }
+    
+  </style>
+</head>
+<body>
+<div class="fullScreen">
+	<div class="invoice">
+    
+    <h1 class="text-center"><span class="bg-silver fw-400">Daily Track Update</span></h1>
+    <h2 class="text-center">
+      <span class="csbg-green fw-400">DesesaeName(ulcerative Colites And Crohn’s Disease)</span>
+    </h2>
+    <h2 class="fw-400 mt-wpx-70">Mr.Avinash Tripathi(User Name)</h2>
+    <h2 class="fw-400">Age-55</h2>
+    <h2 class="text-center fw-400">My Disease Report/Track</h2>
+    <canvas id="chart-0" style="width: 100%; height: 400px;"></canvas>
+    <div class="card mt-4">
+      <div class="card-body border">
+        <table>
+          <tbody>
+          	<tr>
+          		<th>S.No</th>
+              <th>Daily Track</th>
+              <th>Rating</th>
+          	</tr>
+            <tr>
+              <td>1</td>
+              <td>Have you Affected by pain in Stomach/Abdomen?</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Have you Slept well last night?</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Have you felt rested & Refreshed during the day?</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>I have had difficulty in coordinating managing defecation?</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>I have had difficulty with Personal relationships and/or difficulty participating in community?</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>I have had difficulty with School/Studying activities, and/or difficulty with work or household activities?</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>I was in a good mood today?</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>I have not liked the way my body/body parts look</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>I have had difficulty with mental and/or physical aspect of sex</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>I have had difficulty pains in my joint of my body?</td>
+              <td>10</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+	</div>
+</div>
+
+  <script type="text/javascript" src="dist/Chart.min.js"></script>
+  <script type="text/javascript" src="dist/utils.js"></script>
+
+  <script>
+    var presets = window.chartColors;
+    var utils = Samples.utils;
+    var inputs = {
+      min: 10,
+      max: 16,
+      count: 10,
+      decimals: 2,
+      continuity: 1
+    };
+
+    function generateData() {
+      // radar chart doesn't support stacked values, let's do it manually
+      var values = utils.numbers(inputs);
+      inputs.from = values;
+      return values;
+    }
+
+    function generateLabels() {
+      return utils.months({count: inputs.count});
+    }
+
+    utils.srand(42);
+
+    var data = {
+      labels: generateLabels(),
+      datasets: [{
+        backgroundColor: utils.transparentize(presets.red),
+        borderColor: presets.red,
+        data: generateData(),
+        label: 'High Score'
+      }]
+    };
+
+    var options = {
+      maintainAspectRatio: true,
+      spanGaps: false,
+      elements: {
+        line: {
+          tension: 0.000001
+        }
+      },
+      // plugins: {
+      //   filler: {
+      //     propagate: false
+      //   },
+      //   'samples-filler-analyser': {
+      //     target: 'chart-analyser'
+      //   }
+      // }
+    };
+
+    var chart = new Chart('chart-0', {
+      type: 'radar',
+      data: data,
+      options: options
+    });
+
+
+
+
+  </script>
+</body>
+</html>

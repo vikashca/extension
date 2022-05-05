@@ -1,0 +1,157 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FAQ's</title>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700">
+	<style type="text/css">
+		html, body{
+			font-family: 'Roboto', sans-sarif;
+			color: #222;
+			font-size: 14px;
+			line-height: 27px;
+			margin: 0px;
+			/*background-image: linear-gradient(to right, #2e47dc 0%, #2d48dc 51%, #2c49db 100%);*/
+		}
+		*{
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+		}
+		.color-tabel{
+			width: 100%;
+		    border-collapse: collapse;
+		}
+		.color-tabel tbody {
+		    display: table-row-group;
+		    vertical-align: middle;
+		    border-color: inherit;
+		}
+		.color-tabel thead {
+		    display: table-header-group;
+		    vertical-align: middle;
+		    border-color: inherit;
+		}
+		.color-tabel tr {
+		    display: table-row;
+		    vertical-align: inherit;
+		    border-color: inherit;
+		}
+		.color-tabel thead th,
+		.color-tabel tbody td{
+			padding: 12px 0px;
+		}
+		.color-tabel thead th > span,
+		.color-tabel tbody td > span{
+			box-shadow: 5px 0 10px rgba(0,0,0,.06);
+			background-color: #fff;
+			padding: 10px;
+			display: block;
+			text-align: left;
+		}
+		.color-tabel thead th:first-child > span,
+		.color-tabel tbody td:first-child > span{
+			border-left: 5px solid #f00;
+			border-radius: 5px 0px 0 5px;			
+		}
+		.color-tabel thead th:last-child > span,
+		.color-tabel tbody td:last-child > span{
+			border-radius: 0px 5px 5px 0px;
+		}
+
+		.checkbox{
+			position: relative;
+		}
+		.checkbox input{
+			position: absolute;
+			opacity: 0;
+			visibility: hidden;
+		}
+		.checkbox .label-check{
+			width: 20px;
+			height: 20px;
+			position: relative;
+			display: inline-block;
+			vertical-align: middle;
+			border: 1px solid #888;
+		}
+		.checkbox input + .label-check:after{
+			content: '';
+			position: absolute;
+			top: 40%;
+			left: 50%;
+			width: 10px;
+			height: 5px;
+			border-left: 2px solid #333;
+			border-bottom: 2px solid #333;
+			opacity: 0;
+			visibility: hidden;
+			transition: all ease-in-out .3s;
+			-webkit-transition: all ease-in-out .3s;
+			-moz-transition: all ease-in-out .3s;
+			transform: translate(-50%, -50%) rotate(-45deg) scale(1.5);
+			-webkit-transform: translate(-50%, -50%) rotate(-45deg) scale(1.5);
+			-moz-transform: translate(-50%, -50%) rotate(-45deg) scale(1.5);
+		}
+		.checkbox input[type=radio] + .label-check{
+			border-radius: 100%;
+		}
+		.checkbox input[type=radio] + .label-check:after{
+			top: 50%;
+			width: 10px;
+			height: 10px;
+			border: 0px;
+			border-radius: 100%;
+			background-color: #000;
+		}
+		.checkbox input:checked + .label-check:after{
+			opacity: 1;
+			visibility: visible;
+			transform: translate(-50%, -50%) rotate(-45deg) scale(1);
+			-webkit-transform: translate(-50%, -50%) rotate(-45deg) scale(1);
+			-moz-transform: translate(-50%, -50%) rotate(-45deg) scale(1);
+		}
+		
+		.ml-2{
+			margin-left: .75rem;
+		}
+	</style>
+</head>
+<body>
+<div style="padding: 25px; width: 100%;float: left">
+	<label class="checkbox">
+		<input type="checkbox" name="gender" value="1">
+		<span class="label-check"></span><span class="ml-2">Male</span>
+	</label>
+	<label class="checkbox">
+		<input type="radio" name="gender" value="1">
+		<span class="label-check"></span><span class="ml-2">Male</span>
+	</label>
+	<table class="color-tabel table">
+	  <thead>
+	    <tr>
+	      <th><span>Name</span></th>
+	      <th><span>Company</span></th>
+	      <th><span>Employees</span></th>
+	      <th><span>Customers</span></th>
+	    </tr>
+	  </thead>
+	   <tbody>
+	    <tr>
+	      <td><span>Anurag</span></td>
+	      <td><span>ToTheNew</span></td>
+	      <td><span>440</span></td>
+	      <td><span>3549</span></td>
+	    </tr>
+	    <tr>
+	      <td><span>Anurag</span></td>
+	      <td><span>ToTheNew</span></td>
+	      <td><span>440</span></td>
+	      <td><span><button type="button">sdfjh</button></span></td>
+	    </tr>
+	  </tbody>
+	</table>
+</div>
+</body>
+</html>

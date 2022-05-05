@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js_Self_Toggle()</title>
+</head>
+<body>
+	<img src="download.jpg" id="userToggleImg">
+</body>
+<script type="text/javascript">
+	document.querySelector("#userToggleImg").onclick = function(){
+		var x = document.querySelector("#userToggleImg").src;
+		var arraX = x.split("/");
+		var getValue = arraX[arraX.length - 1];
+		if(getValue == "download.jpg"){
+			document.querySelector("#userToggleImg").src="download.png";
+		}else if(getValue !== "download.jpg"){
+			document.querySelector("#userToggleImg").src="download.jpg";
+		}
+	}
+</script>
+</html>
